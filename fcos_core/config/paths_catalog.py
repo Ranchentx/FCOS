@@ -19,39 +19,39 @@ class DatasetCatalog(object):
             "img_dir": "coco/test2017",
             "ann_file": "coco/annotations/image_info_test-dev2017.json"
         },
-        "coco_2014_train": {
-            "img_dir": "/raid/jing/data/coco/images/train2014",
-            "ann_file": "/raid/jing/data/coco/annotations/instances_train2014.json"
-        },
-        "coco_2014_val": {
-            "img_dir": "/raid/jing/data/coco/images/val2014",
-            "ann_file": "/raid/jing/data/coco/annotations/instances_val2014.json"
-        },
-        "coco_2014_minival": {
-            "img_dir": "/raid/jing/data/coco/images/val2014",
-            "ann_file": "/raid/jing/data/coco/annotations/instances_minival2014.json"
-        },
-        "coco_2014_valminusminival": {
-            "img_dir": "/raid/jing/data/coco/images/val2014",
-            "ann_file": "/raid/jing/data/coco/annotations/instances_valminusminival2014.json"
-        },
-
         # "coco_2014_train": {
-        #     "img_dir": "/raid/data/coco/images/train2014",
-        #     "ann_file": "/raid/data/coco/annotations/instances_train2014.json"
+        #     "img_dir": "/raid/jing/data/coco/images/train2014",
+        #     "ann_file": "/raid/jing/data/coco/annotations/instances_train2014.json"
         # },
         # "coco_2014_val": {
-        #     "img_dir": "/raid/data/coco/images/val2014",
-        #     "ann_file": "/raid/data/coco/annotations/instances_val2014.json"
+        #     "img_dir": "/raid/jing/data/coco/images/val2014",
+        #     "ann_file": "/raid/jing/data/coco/annotations/instances_val2014.json"
         # },
         # "coco_2014_minival": {
-        #     "img_dir": "/raid/data/coco/images/val2014",
-        #     "ann_file": "/raid/data/coco/annotations/instances_minival2014.json"
+        #     "img_dir": "/raid/jing/data/coco/images/val2014",
+        #     "ann_file": "/raid/jing/data/coco/annotations/instances_minival2014.json"
         # },
         # "coco_2014_valminusminival": {
-        #     "img_dir": "/raid/data/coco/images/val2014",
-        #     "ann_file": "/raid/data/coco/annotations/instances_valminusminival2014.json"
+        #     "img_dir": "/raid/jing/data/coco/images/val2014",
+        #     "ann_file": "/raid/jing/data/coco/annotations/instances_valminusminival2014.json"
         # },
+
+        "coco_2014_train": {
+            "img_dir": "/raid/data/coco/images/train2014",
+            "ann_file": "/raid/data/coco/annotations/instances_train2014.json"
+        },
+        "coco_2014_val": {
+            "img_dir": "/raid/data/coco/images/val2014",
+            "ann_file": "/raid/data/coco/annotations/instances_val2014.json"
+        },
+        "coco_2014_minival": {
+            "img_dir": "/raid/data/coco/images/val2014",
+            "ann_file": "/raid/data/coco/annotations/instances_minival2014.json"
+        },
+        "coco_2014_valminusminival": {
+            "img_dir": "/raid/data/coco/images/val2014",
+            "ann_file": "/raid/data/coco/annotations/instances_valminusminival2014.json"
+        },
         "keypoints_coco_2014_train": {
             "img_dir": "coco/train2014",
             "ann_file": "coco/annotations/person_keypoints_train2014.json",
