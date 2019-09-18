@@ -9,6 +9,7 @@ from fcos_core.utils.env import setup_environment  # noqa F401 isort:skip
 
 import argparse
 import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "4,5,6,7"
 
 import torch
 from fcos_core.config import cfg
